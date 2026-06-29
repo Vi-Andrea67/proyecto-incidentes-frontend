@@ -1,29 +1,24 @@
-# Sistema de Gestión de Incidentes - Frontend
+# Frontend - Proyecto
 
-Interfaz web desarrollada en React para consumir la API del sistema de incidentes.
+Este es el repositorio del frontend del proyecto.
 
-## Tecnologías utilizadas
+---
 
-- React
-- Vite
-- JavaScript
-- Bootstrap
-- Fetch API
+## 🚀 Tecnologías utilizadas
+- React (o Vite / Angular / Vue según aplique)
+- JavaScript / TypeScript
+- CSS / Tailwind (si aplica)
 
-## Funcionalidades
+---
 
-- Visualización de incidentes
-- Creación de incidentes
-- Consulta de historial
-- Comunicación con backend REST
+## 📦 Instalación
 
-## Instalación
+Clona el repositorio:
 
-Clonar repositorio:
 ```bash
 git clone https://github.com/tu-usuario/tu-frontend.git
 
-Entra a la carpeta:
+Entra a la carpeta del proyecto:
 
 cd tu-frontend
 
@@ -34,13 +29,6 @@ npm install
 npm run dev
 🌐 Configuración del backend
 
-Si el frontend consume API, asegúrate de tener configurada la URL del backend en:
-
-.env o archivo de configuración
-
-Ejemplo:
+Si el frontend consume API, crea un archivo .env en la raíz:
 
 VITE_API_URL=http://localhost:3000
-📌 Notas
-El backend debe estar ejecutándose para que el frontend funcione correctamente.
-Puerto por defecto: 5173 (Vite) o 3000 (React clásico).
